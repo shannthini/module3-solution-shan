@@ -1,0 +1,66 @@
+body {
+  color: black !important;
+}
+
+h3 {
+  padding-top: 10px;
+}
+
+.tile {
+  padding: 0 15px 5px 15px;
+}
+
+.navbar-brand {
+  color: black !important;
+}
+
+.navbar-nav > li > a {
+  color: black !important;
+ 
+}
+
+.navbar-default .navbar-toggle {
+  border-color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.container-color {
+  background-color: #337AB7;
+}
+
+a {
+  color: #A94442;
+}
+
+li {
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+}
+
+li:hover {
+  background-color: gray;
+}
+
+li:nth-child(1) {
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 1px;
+}
+
+@media (max-width: 767px) {
+  .tile {
+    margin: 0 30px 5px 30px;
+  }
+
+  .navbar-nav, .navbar-collapse {
+    background-color: white;
+  }
+
+  .navbar-nav {
+    margin: 0 -15px;
+  }
+}
